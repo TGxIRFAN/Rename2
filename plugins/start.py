@@ -37,7 +37,7 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"Hᴀɪ \nIᴀᴍ A Sɪᴍᴩʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜʙɴɪʟᴇ & Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ Sᴜᴩᴩᴏʀᴛ!"
+    txt=f"Hᴀɪ {user.mention} \nIᴀᴍ A Sɪᴍᴩʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜʙɴɪʟᴇ & Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ Sᴜᴩᴩᴏʀᴛ!"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')
         ],[
