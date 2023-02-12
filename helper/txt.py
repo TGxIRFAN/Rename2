@@ -70,12 +70,11 @@ Example:- /set_caption 📕 File Name: {filename}
 <b><u>Special Thanks & Developers</b></u> 
 
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/Ak_Links1>𝗔𝗞 𝗕𝗢𝗧𝗭</a>
-» 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 : <a href=https://t.me/filesharebotusers</a>
 
-• ❣️ <a href=https://t.me/V_I_J_A_Y_THALAPATHY1>𝗔𝗟 𝗜𝗥𝗙𝗔𝗡</a>
+• ❣️ <a href=https://t.me/V_I_J_A_Y_THALAPATHY1>𝐀𝐒 𝐓𝐆 [𝐎𝐍𝐋𝐈𝐍𝐄]</a>
 • ❣️ <a href=https://t.me/Fake_2_me>𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥</a>
-• ❣️ <a href=https://t.me/psycho_009>𝗔𝗡𝗘𝗘𝗕 𝗦𝗘𝗥</a>
-• ❣️ <a href=https://t.me/Lucifer_Tg3>𝗔𝗡𝗘𝗘𝗕 𝗗𝗘𝗩𝗜𝗟</a>
+• ❣️ <a href=https://t.me/psycho_009>𝐀𝐤 ᠰ 𝐓𝐠 [𝗢𝐅𝐅𝐥𝐢𝐧𝐞 ]</a>
+• ❣️ <a href=https://t.me/Lucifer_Tg3>𝐋𝐔𝐂𝐈𝐅𝐄𝐑 [𝐎𝐅𝐅𝐋𝐈𝐍𝐄]</a>
 • ❣️ <a href=https://t.me/filesharebotusers>𝗔𝗠𝗟 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a>
 • ❣️ <a href=https://t.me/Ak_Links1>𝗔𝗞 𝗕𝗢𝗧𝗭</a>
 """
