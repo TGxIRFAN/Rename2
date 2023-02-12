@@ -39,13 +39,13 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"Hᴀɪ {user.mention} \nIᴀᴍ A Sɪᴍᴩʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜʙɴɪʟᴇ & Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ Sᴜᴩᴩᴏʀᴛ!"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')
+        InlineKeyboardButton("👨‍💻Dᴇᴠꜱ👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/Ak_Links1'),
-        InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/filesharebotusers')
+        InlineKeyboardButton('📢Uᴩᴅᴀᴛᴇꜱ📢', url='https://t.me/Ak_Links1'),
+        InlineKeyboardButton('🧩Sᴜᴩᴩᴏʀᴛꜱ🧩', url='https://t.me/filesharebotusers')
         ],[
-        InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-        InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help')
+        InlineKeyboardButton('♻️Aʙᴏᴜᴛ♻️', callback_data='about'),
+        InlineKeyboardButton('⚙Hᴇʟᴩ⚙', callback_data='help')
         ]])
     if START_PIC:
         await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
