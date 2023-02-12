@@ -45,25 +45,29 @@ class mr(object):
 ╰───────────────⍟
                                 """
     HELP_TXT = """
-🌌 <b><u>HOW TO SET THUMBNILE</u></b>
+🌌 <b><u>𝙷𝙾𝚆 𝚃𝙾 𝚂𝙴𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙸𝙻𝙴</u></b>
   
-•> /start a bot and send any picture to automatically set thumbnile.
-•> /delthumb use this command and delete your old thumbnile.
-•> /viewthumb use this command view your current thumbnile.
+★ /start A Bᴏᴛ Aɴᴅ Sᴇɴᴅ Aɴy Pɪᴄᴛᴜʀᴇ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟy Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ.
+★ /delthumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Aɴᴅ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴɪʟᴇ.
+★ /viewthumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Vɪᴇᴡ Yᴏᴜ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴɪʟᴇ
 
-📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b>
-•> /set_caption - set a custom caption
-•> /see_caption - see your custom caption
-•> /del_caption - delete custom caption
+📑 <b><u>𝙷𝙾𝚆 𝚃𝙾 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽</u></b>
 
-Example:- /set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
+★ /set_caption Sᴇᴛ A Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ.
+★ /see_caption Sᴇᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
+★ /del_caption Dᴇʟᴇᴛᴇ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
 
-✏️ <b><u>HOW TO RENAME A FILE</u></b>
-•> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/filesharebotusers>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
-"""
+𝙴𝚇𝙰𝙼𝙿𝙻𝙴 :- /set_caption 📕Fɪʟᴇ Nᴀᴍᴇ: {filename}
+💾 Sɪᴢᴇ: {filesize}
+⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
+
+📑 𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝙽𝙰𝙼𝙴 𝙰 𝙵𝙸𝙻𝙴
+
+★Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ Oᴩᴛɪᴏɴ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ Sᴇɴᴅ Sᴇʟᴇᴄᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ]
+
+𝙲𝙷𝙾𝙸𝙲𝙴 𝚃𝙷𝙸𝚂
+
+ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/filesharebotusers>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 
 #⚠️ don't remove our credits 🙏😢😢
     DEV_TXT = """
