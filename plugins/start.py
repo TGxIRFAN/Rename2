@@ -98,7 +98,7 @@ async def cb_handler(client, query: CallbackQuery):
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://t.me/Ak_Links1")
                ],[
-               InlineKeyboardButton("Hᴏᴡ Tᴏ Uꜱᴇ", url='https://t.me/Ak_Links1')
+               
                ],[
                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
