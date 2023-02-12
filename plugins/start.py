@@ -96,7 +96,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://t.me/Ak_Links1")
+               
                ],[
                
                ],[
@@ -111,7 +111,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://t.me/Ak_Links1")
+               
                ],[
                
                ],[
@@ -125,7 +125,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("Sᴏᴜʀᴄᴇ", url="https://t.me/Ak_Links1")
+               
                ],[
                
                ],[
