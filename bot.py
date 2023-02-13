@@ -1,5 +1,5 @@
 from pyrogram import Client 
-from config import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB, PORT
+from config import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB, PORT, LOG_CHANNEL
 from aiohttp import web
 from route import web_server
 
@@ -35,6 +35,7 @@ class Bot(Client):
         bind_address = "0.0.0.0"       
         await web.TCPSite(app, bind_address, PORT).start()     
         print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
+        await self.send_message(LOG_CHANNEL, text="Bot Restarted")
       
 
     async def stop(self, *args):
