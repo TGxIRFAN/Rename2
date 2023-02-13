@@ -29,14 +29,15 @@ import humanize
 import random
 from helper.txt import mr
 from helper.database import db
-from config import START_PIC, FLOOD, ADMIN 
+from config import START_PIC, FLOOD, ADMIN, LOG_CHANNEL
 
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
-        await db.add_user(user.id)             
+        await db.add_user(user.id)     
+        await client.send_message(LOG_CHANNEL, text=f"#NewUser\nName: {user.first_name}\nID: {user.id}")
     txt=f"Hᴀɪ {user.mention} \nIᴀᴍ A Sɪᴍᴩʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜʙɴɪʟᴇ & Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ Sᴜᴩᴩᴏʀᴛ!"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻Dᴇᴠꜱ👨‍💻", callback_data='dev')
