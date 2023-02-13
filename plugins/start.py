@@ -140,6 +140,14 @@ async def cb_handler(client, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             await query.message.delete()
+            
+@Client.on_message(filters.command('restart') & filters.user(ADMIN))
+async def bot_restart(bot, message):
+    msg = await message.reply("🔄 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙴𝚂 𝚂𝚃𝙾𝙿𝙴𝙳. 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...")
+    await sleep(3)
+    await msg.edit("✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳! 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴.")
+    os.execl(sys.executable, sys.executable, *sys.argv)
+            
 
 
 
