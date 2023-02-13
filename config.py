@@ -21,3 +21,5 @@ START_PIC = os.environ.get("START_PIC", "")
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1833209093 5845960615').split()]
 
 PORT = os.environ.get('PORT', '8080')
+
+LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001898159090'))
