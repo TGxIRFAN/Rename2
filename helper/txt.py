@@ -36,7 +36,7 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-├👑 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/filesharebotusers>𝙰𝙼𝙻 𝚄𝙿𝙳𝙰𝚃𝙴𝚂</a> 
+├👑 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a> 
 ├👨‍💻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁 : <a href=https://github.com/lntechnical2>𝙻𝙽 𝚃𝙴𝙲𝙷.𝚐𝚒𝚝</a>
 ├📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
 ├✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href=https://www.python.org>𝙿𝚈𝚃𝙷𝙾𝙽 3</a>
@@ -75,6 +75,6 @@ class mr(object):
 • ❣️ <a href=https://t.me/Fake_2_me>𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥</a>
 • ❣️ <a href=https://t.me/psycho_009>𝐀𝐤 ᠰ 𝐓𝐠 [O𝐅𝐅𝐥𝐢𝐧𝐞 ]</a>
 • ❣️ <a href=https://t.me/Lucifer_Tg3>𝐋𝐔𝐂𝐈𝐅𝐄𝐑 [𝐎𝐅𝐅𝐋𝐈𝐍𝐄]</a>
-• ❣️ <a href=https://t.me/filesharebotusers>𝗔𝗠𝗟 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a>
+• ❣️ <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a>
 • ❣️ <a href=https://t.me/Ak_Links1>𝗔𝗞 𝗕𝗢𝗧𝗭</a>
 """
