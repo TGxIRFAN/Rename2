@@ -69,7 +69,7 @@ class mr(object):
     DEV_TXT = """
 <b><u>Special Thanks & Developers</b></u> 
 
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/Ak_Links1>𝗔𝗞 𝗕𝗢𝗧𝗭</a>
+» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a>
 
 • ❣️ <a href=https://t.me/V_I_J_A_Y_THALAPATHY1>𝐀𝐒 𝐓𝐆 [𝐎𝐍𝐋𝐈𝐍𝐄]</a>
 • ❣️ <a href=https://t.me/Fake_2_me>𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥</a>
