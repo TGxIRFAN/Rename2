@@ -1,6 +1,9 @@
 import re, os
+from time import time
 
 id_pattern = re.compile(r'^.\d+$') 
+
+BOT_START_TIME = time()
 
 API_ID = os.environ.get("API_ID", "9254436")
 
