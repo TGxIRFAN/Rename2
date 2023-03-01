@@ -7,3 +7,4 @@ pyrogram==2.0.35
 TgCrypto
 dnspython
 aiohttp 
+psutil==5.9.4
