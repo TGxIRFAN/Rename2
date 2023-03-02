@@ -41,13 +41,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, text=f"#NewUser\nName: {user.first_name}\nID: {user.id}")
     txt=f"Hᴀɪ {user.mention} \nIᴀᴍ A Sɪᴍᴩʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜʙɴɪʟᴇ & Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ Sᴜᴩᴩᴏʀᴛ!"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("👨‍💻Dᴇᴠꜱ👨‍💻", callback_data='dev')
+        InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MLZ_BOTZ'),
+        InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/MLZ_BOTZ_SUPPORT')
         ],[
-        InlineKeyboardButton('📢Uᴩᴅᴀᴛᴇꜱ📢', url='https://t.me/MLZ_BOTZ'),
-        InlineKeyboardButton('🧩Sᴜᴩᴩᴏʀᴛꜱ🧩', url='https://t.me/MLZ_BOTZ_SUPPORT')
+        InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
+        InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help')
         ],[
-        InlineKeyboardButton('♻️Aʙᴏᴜᴛ♻️', callback_data='about'),
-        InlineKeyboardButton('⚙Hᴇʟᴩ⚙', callback_data='help')
+        InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽𝚂', callback_data='dev')
         ]])
     if START_PIC:
         await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
@@ -83,13 +83,13 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""Hᴀɪ {query.from_user.mention} \nIᴀᴍ A Sɪᴍᴩʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜʙɴɪʟᴇ & Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ Sᴜᴩᴩᴏʀᴛ!""",
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("👨‍💻Dᴇᴠꜱ👨‍💻", callback_data='dev')                
+                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MLZ_BOTZ'),
+                InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/MLZ_BOTZ_SUPPORT')
                 ],[
-                InlineKeyboardButton('📢Uᴩᴅᴀᴛᴇꜱ📢', url='https://t.me/MLZ_BOTZ'),
-                InlineKeyboardButton('🧩Sᴜᴩᴩᴏʀᴛꜱ🧩', url='https://t.me/MLZ_BOTZ_SUPPORT')
+                InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
+                InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help')
                 ],[
-                InlineKeyboardButton('♻️Aʙᴏᴜᴛ♻️', callback_data='about'),
-                InlineKeyboardButton('⚙Hᴇʟᴩ⚙', callback_data='help')
+                InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽𝚂', callback_data='dev')
                 ]]
                 )
             )
@@ -102,8 +102,8 @@ async def cb_handler(client, query: CallbackQuery):
                ],[
                
                ],[
-               InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/MLZ_BOTZ_SUPPORT'),
+               InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -117,8 +117,8 @@ async def cb_handler(client, query: CallbackQuery):
                ],[
                
                ],[
-               InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MLZ_BOTZ'),
+               InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
         )
@@ -126,13 +126,16 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               #⚠️ don't change source code & source link ⚠️ #
-               
+               InlineKeyboardButton('𝗠𝗔𝗧𝗥𝗜𝗫🇮🇳ᵀᴹ', url='https://t.me/TGxMATRIX'),
+               InlineKeyboardButton('𝗙𝗢𝗫𝗬 𝗧𝗚', url='https://t.me/af_x_su')
                ],[
-               
+               InlineKeyboardButton('𝗔𝗦 𝗧𝗚', url='https://t.me/TGxIRFAN'),
+               InlineKeyboardButton('𝗔𝗞 𝗧𝗚', url='https://t.me/psycho_009')
                ],[
-               InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton('𝗗𝗔𝗥𝗞 𝗥𝗜𝗗𝗘𝗥', url='https://t.me/TGxCallMeAJ'),
+               InlineKeyboardButton('𝗠𝗟𝗭 𝗕𝗢𝗧𝗭', url='https://t.me/MLZ_BOTZ')
+               ],[
+               InlineKeyboardButton("Bᴀᴄᴋ Tᴏ Sᴛᴀʀᴛ", callback_data = "start")
                ]]
             )
         )
