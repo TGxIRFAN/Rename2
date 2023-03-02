@@ -34,15 +34,14 @@ class mr(object):
 ╰━━━━━━━━━━━━━━━➣ """
 
     ABOUT_TXT = """
-╭───────────⍟
-├🤖 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-├👑 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a> 
-├👨‍💻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁 : <a href=https://github.com/lntechnical2>𝙻𝙽 𝚃𝙴𝙲𝙷.𝚐𝚒𝚝</a>
-├📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
-├✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href=https://www.python.org>𝙿𝚈𝚃𝙷𝙾𝙽 3</a>
-├💾 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : <a href=https://cloud.mongodb.com>𝙼𝙾𝙽𝙶𝙾𝙳𝙱</a>
-├📊 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚄𝚂 : v2.1.90 [ ꜱɪɢᴍᴀ 🗿 ]              
-╰───────────────⍟
+‣ ᴍʏ ɴᴀᴍᴇ :  {}
+‣ ᴄʀᴇᴀᴛᴏʀ :  <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a>
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ :  <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a>
+‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
+‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3
+‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : . 
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v2.1.90
                                 """
     HELP_TXT = """
 🌌 <b><u>𝙷𝙾𝚆 𝚃𝙾 𝚂𝙴𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙸𝙻𝙴</u></b>
@@ -56,26 +55,16 @@ class mr(object):
 ★ /see_caption Sᴇᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
 ★ /del_caption Dᴇʟᴇᴛᴇ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
 
-𝙴𝚇𝙰𝙼𝙿𝙻𝙴 :- /set_caption 📕Fɪʟᴇ Nᴀᴍᴇ: {filename}
+𝙴𝚇𝙰𝙼𝙿𝙻𝙴 :- /set_caption 📚Fɪʟᴇ Nᴀᴍᴇ: {filename}
 💾 Sɪᴢᴇ: {filesize}
-⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
+⌛️ Dᴜʀᴀᴛɪᴏɴ: {duration}
 
 📑 𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝙽𝙰𝙼𝙴 𝙰 𝙵𝙸𝙻𝙴
-★Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ \nOᴩᴛɪᴏɴ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ \nSᴇɴᴅ Sᴇʟᴇᴄᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ]
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MLZ_BOTZ_SUPPORT>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
-"""
+★Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ \nOᴩᴛɪᴏɴ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ \nSᴇɴᴅ Sᴇʟᴇᴄᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ]"""
 
-#⚠️ don't remove our credits 🙏😢😢
+
+
+
     DEV_TXT = """
 <b><u>Special Thanks & Developers</b></u> 
-
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a>
-
-• ❣️ <a href=https://t.me/V_I_J_A_Y_THALAPATHY1>𝐀𝐒 𝐓𝐆 [𝐎𝐍𝐋𝐈𝐍𝐄]</a>
-• ❣️ <a href=https://t.me/Fake_2_me>𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥</a>
-• ❣️ <a href=https://t.me/TGxMATRIX>MATRIX🇮🇳ᵀᴹ</a>
-• ❣️ <a href=https://t.me/psycho_009>𝐀𝐤 ᠰ 𝐓𝐠 [O𝐅𝐅𝐥𝐢𝐧𝐞 ]</a>
-• ❣️ <a href=https://t.me/Lucifer_Tg3>𝐋𝐔𝐂𝐈𝐅𝐄𝐑 [𝐎𝐅𝐅𝐋𝐈𝐍𝐄]</a>
-• ❣️ <a href=https://t.me/MLZ_BOTZ>𝐌𝐋𝐙 𝐁𝐨𝐭𝐳</a>
-• ❣️ <a href=https://t.me/Ak_Links1>𝗔𝗞 𝗕𝗢𝗧𝗭</a>
 """
