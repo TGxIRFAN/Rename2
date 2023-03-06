@@ -127,13 +127,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                InlineKeyboardButton('𝗠𝗔𝗧𝗥𝗜𝗫🇮🇳ᵀᴹ', url='https://t.me/TGxMATRIX'),
-               InlineKeyboardButton('𝗙𝗢𝗫𝗬 𝗧𝗚', url='https://t.me/af_x_su')
+               InlineKeyboardButton('𝗙𝗢𝗫𝗬 𝗧𝗚⚡️', url='https://t.me/af_x_su')
                ],[
-               InlineKeyboardButton('𝗔𝗦 𝗧𝗚', url='https://t.me/TGxIRFAN'),
-               InlineKeyboardButton('𝗔𝗞 𝗧𝗚', url='https://t.me/psycho_009')
+               InlineKeyboardButton('𝗔𝗦 𝗧𝗚✨️', url='https://t.me/TGxIRFAN'),
+               InlineKeyboardButton('𝗔𝗞 𝗧𝗚🌟', url='https://t.me/psycho_009')
                ],[
                InlineKeyboardButton('𝗗𝗔𝗥𝗞 𝗥𝗜𝗗𝗘𝗥', url='https://t.me/TGxCallMeAJ'),
-               InlineKeyboardButton('𝗠𝗟𝗭 𝗕𝗢𝗧𝗭', url='https://t.me/MLZ_BOTZ')
+               InlineKeyboardButton('𝗠𝞓𝗦᳅𝜩𝗥​', url='https://t.me/Master_broi')
                ],[
                InlineKeyboardButton("Bᴀᴄᴋ Tᴏ Sᴛᴀʀᴛ", callback_data = "start")
                ]]
