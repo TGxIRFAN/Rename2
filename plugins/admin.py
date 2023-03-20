@@ -5,7 +5,7 @@ from config import BOT_START_TIME, ADMIN
 from utils import humanbytes  
 
 
-@Client.on_message(filters.private & filters.command("status") & filters.user(ADMIN))          
+@Client.on_message(filters.private & filters.command("status") & filters.incoming)          
 async def stats(bot, update):
     currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME))
     total, used, free = shutil.disk_usage(".")
