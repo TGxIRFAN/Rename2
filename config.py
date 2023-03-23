@@ -26,3 +26,5 @@ ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.envir
 PORT = os.environ.get('PORT', '8080')
 
 LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001898159090'))
+
+COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
