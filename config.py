@@ -27,8 +27,3 @@ PORT = os.environ.get('PORT', '8080')
 
 LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001898159090'))
 
-BANNED_USERS = filters.user()
-
-BOT_NAME = getenv("MUSIC_BOT_NAME", "MLZ Rᴇɴᴀᴍᴇ ʙᴏᴛ")
-
-PING_URL = getenv("PING_URL", "https://telegra.ph/file/56d1760224589ee370186.jpg")
