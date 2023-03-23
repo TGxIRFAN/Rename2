@@ -1,29 +1,40 @@
 """Telegram Ping / Pong Speed
-Syntax: .ping"""
+from datetime import datetime
 
-import time
-import random
-from pyrogram import Client, filters
-from config import COMMAND_HAND_LER
-from plugins.cust_p_filters import f_onw_fliter
+from pyrogram import filters
+from pyrogram.types import Message
 
-# -- Constants -- #
-ALIVE = "<b>ചത്തിട്ടില്ല മുത്തേ ഇവിടെ തന്നെ ഉണ്ട്.. നിനക്ക് ഇപ്പൊ എന്നോട് ഒരു സ്നേഹവും ഇല്ല. കൊള്ളാം.. നീ പാഴെ പോലെയേ അല്ല മാറിപോയി..😔 ഇടക്ക് എങ്കിലും ചുമ്മാ ഒന്ന് /start ചെയ്തു നോക്ക്..🙂</b>" 
-# -- Constants End -- #
+from config import BANNED_USERS, BOT_NAME, PING_URL
+from strings import get_command
+from AnonX import app
+from AnonX.core.call import Anon
+from AnonX.utils import bot_sys_stats
+from AnonX.utils.decorators.language import language
+from AnonX.utils.inline.play import close_keyboard
+
+### Commands
+PING_COMMAND = get_command("PING_COMMAND")
 
 
-@Client.on_message(filters.command("alive", COMMAND_HAND_LER) & f_onw_fliter)
-async def check_alive(_, message):
-    await message.reply_text(ALIVE)
-
-
-@Client.on_message(filters.command("ping", COMMAND_HAND_LER) & f_onw_fliter)
-async def ping(_, message):
-    start_t = time.time()
-    rm = await message.reply_text("...")
-    end_t = time.time()
-    time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"<b>Pong!\n{time_taken_s:.3f} ms</b>")
+@app.on_message(
+    filters.command(PING_COMMAND)
+)
+@language
+async def ping_com(client, message: Message, _):
+    response = await message.reply_photo(
+        photo=PING_IMG_URL,
+        caption=_["ping_1"],
+    )
+    start = datetime.now()
+    pytgping = await Anon.ping()
+    UP, CPU, RAM, DISK = await bot_sys_stats()
+    resp = (datetime.now() - start).microseconds / 1000
+    await response.edit_text(
+        _["ping_2"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ),
+        reply_markup=close_keyboard
+    )
 
 
 
