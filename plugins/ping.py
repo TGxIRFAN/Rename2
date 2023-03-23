@@ -4,7 +4,7 @@ Syntax: .ping"""
 import time
 import random
 from pyrogram import Client, filters
-from info import COMMAND_HAND_LER
+from config import COMMAND_HAND_LER
 from plugins.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
