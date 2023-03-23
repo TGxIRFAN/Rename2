@@ -32,7 +32,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/MLZ-BOTZ/renamer/blob/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/matrixbotz0/renamer)
 
 
 
