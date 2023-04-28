@@ -5,9 +5,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 BOT_START_TIME = time()
 
-API_ID = os.environ.get("API_ID", "9254436")
+API_ID = os.environ.get("API_ID", "28643132")
 
-API_HASH = os.environ.get("API_HASH", "42665ffe4407fbc3f59c412caa9d84d3")
+API_HASH = os.environ.get("API_HASH", "510c3009ea589830a89e045bf8aae656")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5999105365:AAFVG-nptM_W9nwn9ae97VvTl-581yEomJI") 
 
