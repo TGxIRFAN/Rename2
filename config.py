@@ -9,13 +9,13 @@ API_ID = os.environ.get("API_ID", "28643132")
 
 API_HASH = os.environ.get("API_HASH", "510c3009ea589830a89e045bf8aae656")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5999105365:AAFVG-nptM_W9nwn9ae97VvTl-5") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5925633630:AAHePK4xeagl_XauSU0tTAgJmVwjxdPxeq4") 
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "MLZ_BOTZ") 
 
-DB_NAME = os.environ.get("DB_NAME","sui:sui")     
+DB_NAME = os.environ.get("DB_NAME","theappu65:JrBbgS8aMqYgWUvf")     
 
-DB_URL = os.environ.get("DB_URL","mongodb+srv://sui:sui@cluster0.fmobrpu.mongodb.net/?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://theappu65:JrBbgS8aMqYgWUvf@cluster0.nk6spkf.mongodb.net/?retryWrites=true&w=majority")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
